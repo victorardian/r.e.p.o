@@ -1,5 +1,5 @@
-const date = new Date().toISOString().split("T")[0]
 const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+const date = new Date().toLocaleDateString("timezone");
 
 const form = document.getElementById("dateform");
 form.setAttribute("min", date);

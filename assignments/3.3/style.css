@@ -1,0 +1,42 @@
+* {
+    color: white;
+}
+
+.background {
+    background-color: rgb(115, 113, 220);
+}
+
+.specialpaddingbottom {
+    padding-bottom: 25px;
+}
+
+.specialpaddingtop {
+    padding-top: 25px;
+}
+
+.border {
+    border-bottom-right-radius: 100px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding-right: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+    background-color: black;
+}
+
+th {
+    padding: 15px;
+}
+
+thead {
+    background-color: rgb(176, 175, 235);
+}
+
+table {
+    width: 30%;
+}
