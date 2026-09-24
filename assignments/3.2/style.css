@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
