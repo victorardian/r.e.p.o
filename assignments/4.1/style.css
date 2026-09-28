@@ -1,0 +1,28 @@
+@font-face {
+    font-family: fltltl;
+    src: url(ftltlt-webfont.woff);
+}
+
+* {
+    font-family: fltltl;
+}
+
+h2 {
+    font-size: 56px;
+    color: #9000ff;
+    font-weight: bold;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+p {
+    color: #0d0303;
+    font-size: 28px;
+}
+
+a {
+    color: #7272dd;
+    text-decoration: none;
+}
