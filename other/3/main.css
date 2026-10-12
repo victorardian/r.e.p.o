@@ -1,0 +1,55 @@
+.call-to-action-link {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 1em 2em;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section {
+    display: flex;
+}
+
+section .column {
+    flex: 1;
+}
+
+section .column img {
+    max-height: 300px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.call-to-action-options {
+    display: flex;
+    gap: 15px;
+    a {
+        background-color: lightblue;
+        border-radius: 25px;
+        padding: 100px;
+        box-sizing: border-box;
+        max-width: 250px;
+        text-wrap: nowrap;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.margin {
+    margin-left: 30%;
+}
