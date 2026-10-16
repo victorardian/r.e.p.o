@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.stage {
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bannerSize {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    padding: 1em;
+}
+
+.colorContainer {
+    display: flex;
+    gap: 0.5dvw;
+}
+
+.color1 {
+    background-color: #9000ff;
+    width: 1dvw;
+    height: 1dvh;
+}
+
+.color2 {
+    background-color: #55559F;
+    width: 1dvw;
+    height: 1dvh;
+}
+
+.color3 {
+    background-color: #b0b0eb;
+    width: 1dvw;
+    height: 1dvh;
+}
