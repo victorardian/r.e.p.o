@@ -1,0 +1,104 @@
+@font-face {
+    font-family: fatality;
+    src: url(/assignments/5.1/fonts/ftltlt-webfont.woff);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: fatality;
+}
+
+.stage {
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bannerSize {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    padding: 1em;
+}
+
+.colorContainer {
+    display: flex;
+    gap: 0.5dvw;
+}
+
+.color1 {
+    background-color: #9000ff;
+    width: 1dvw;
+    height: 1dvh;
+}
+
+.color2 {
+    background-color: #55559F;
+    width: 1dvw;
+    height: 1dvh;
+}
+
+.color3 {
+    background-color: #b0b0eb;
+    width: 1dvw;
+    height: 1dvh;
+}
+
+.textdiv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.h1text {
+    font-size: 3em;
+}
+
+.hiimage {
+    width: 50px;
+    position: absolute;
+    right: 135px;
+    top: -20px;
+}
+
+.simcardimage {
+    width: 60px;
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+
+.purplecircle {
+    background-color: #7272DD;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    right: -90px;
+    top: 150px;
+}
+
+.linkbutton {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background: none;
+    position: absolute;
+    right: 125px;
+    bottom: 192px;
+}
+
+ul {
+    margin-top: 1em;
+    list-style-type: none;
+    padding: 0;
+}
