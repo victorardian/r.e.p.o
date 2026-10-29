@@ -68,7 +68,7 @@ ul {
     background-color: #7272dd;
     width: 10dvw;
     padding: 1em;
-    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50px;
 }
 
 .servicehulpnodig {
@@ -85,7 +85,8 @@ ul {
 }
 
 .service:hover .servicecontent {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .linkstyles {
