@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    color: white;
+    margin: 0;
+    margin-left: 2em;
+}
+
+.h2 {
+    color: black;
+    margin: 0;
+    margin-left: 2em;
+}
+
+.p {
+    color: black;
+    margin: 0;
+    margin-left: 3em;
+}
+
+.red {
+    background-color: red;
+    height: 10dvh;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 30dvh;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.orange {
+    background-color: orange;
+    height: 30dvh;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.green {
+    background-color: green;
+    height: 30dvh;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+@media (max-width: 900px) {
+    .red {
+        background-color: pink;
+    }
+    .yellow {
+        background-color: red;
+    }
+    .orange {
+        background-color: cornflowerblue;
+    }
+    .green {
+        background-color: blue;
+    }
+    .p {
+        margin: 0;
+        text-align: center;
+        color: white;
+    }
+    .h2 {
+        margin: 0;
+        color: white;
+    }
+    .h1 {
+        margin: 0;
+        color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .red {
+        background-color: cornflowerblue;
+        display: flex;
+        align-items: center;
+        padding-left: 2em;
+        padding-top: 0;
+        margin: 0;
+    }
+    .yellow {
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .orange {
+        background-color: magenta;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .green {
+        background-color: navy;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .p {
+        margin: 0;
+        text-align: center;
+        color: white;
+    }
+    .h2 {
+        margin: 0;
+        color: white;
+    }
+    .h1 {
+        margin: 0;
+        color: white;
+    }
+}
