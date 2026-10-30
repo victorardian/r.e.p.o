@@ -12,20 +12,21 @@ body {
 .h2 {
     color: black;
     margin: 0;
-    margin-left: 2em;
+    margin-left: 2.75em;
 }
 
 .p {
     color: black;
     margin: 0;
-    margin-left: 3em;
+    margin-left: 4.25em;
 }
 
 .red {
     background-color: red;
     height: 10dvh;
     box-sizing: border-box;
-    padding-top: 2em;
+    display: flex;
+    align-items: center;
 }
 
 .yellow {
@@ -80,8 +81,6 @@ body {
 @media (max-width: 600px) {
     .red {
         background-color: cornflowerblue;
-        display: flex;
-        align-items: center;
         padding-left: 2em;
         padding-top: 0;
         margin: 0;
