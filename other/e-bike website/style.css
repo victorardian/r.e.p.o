@@ -1,0 +1,57 @@
+@font-face {
+    font-family: sansation;
+    src: url(/fonts/Sansation_Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sansation;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5dvh;
+    width: 100dvw;
+}
+
+.bikeselection {
+    display: flex;
+    gap: 1dvw;
+    height: 95dvh;
+    max-width: 100dvw;
+}
+
+.generalimage {
+    width: 30dvw;
+    height: 60%;
+    aspect-ratio: 1;
+    border: 2px solid rgba(calc(255 / 2), calc(255 / 2), calc(255 / 2), 1);
+    border-radius: 20px;
+}
+
+.generalimage:hover {
+    width: calc(30dvw + 1em);
+    height: calc(60dvh + 1em);
+}
+
+h1 {
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+    span {
+        color: royalblue;
+    }
+}
