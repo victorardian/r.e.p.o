@@ -3,3 +3,5 @@ function changecolor() {
     colorchangingparagraph.style.color = "red";
     colorchangingparagraph.innerHTML = "Inhoud aangepast!";
 }
+
+changecolor()
